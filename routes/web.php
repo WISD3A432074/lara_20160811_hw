@@ -22,7 +22,9 @@ Route::get('/about', function () {
 });
 */
 Route::get('/about',['as' => 'about.index', 'uses' => 'AboutController@index']);
-
+/*
 Route::get('/news', function () {
      return view('welcome');
 });
+*/
+Route::get('/news',['as' => 'news.index', 'uses' => 'NewsController@index']);
