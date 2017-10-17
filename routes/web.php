@@ -16,10 +16,12 @@ Route::get('/', function () {
 });
 */
 Route::get('/',['as' => 'home.index', 'uses' => 'HomeController@index']);
-
+/*
 Route::get('/about', function () {
     return view('welcome');
 });
+*/
+Route::get('/about',['as' => 'about.index', 'uses' => 'AboutController@index']);
 
 Route::get('/news', function () {
      return view('welcome');
