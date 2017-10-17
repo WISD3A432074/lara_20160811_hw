@@ -88,6 +88,8 @@
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{route('home.index')}}">Home</a>
+                    <a href="{{route('news.index')}}">News</a>
                 </div>
             </div>
         </div>
